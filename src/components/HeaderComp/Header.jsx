@@ -18,7 +18,7 @@ const Header = () => {
             className="outline-none border-none bg-none bg-gray-200"
           />
         </div>
-        <div className="grid grid-cols-6 items-center">
+        <div className="grid grid-cols-6 gap-2 items-center">
           <HeaderOption Icon={FaHome} title={"Home"} />
           <HeaderOption Icon={FaUserGroup} title={"My Network"} />
           <HeaderOption Icon={FaToolbox} title={"Jobs"} />
